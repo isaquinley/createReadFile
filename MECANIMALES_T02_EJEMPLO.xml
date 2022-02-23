@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI xmlns="http://www.eventis.nl/PRODIS/ADI">
+  <Metadata>
+    <AMS Asset_Class="package" Asset_ID="EEANME201" Asset_Name="MecanimalesT02EP01_HD_package" Creation_Date="2022-02-11" Description="Serie Mecanimales " Product="FVOD" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1"/>
+    <App_Data App="MOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="EEANME201" Asset_Name="MecanimalesT02EP01_HD_package" Creation_Date="2022-02-11" Description="Serie Mecanimales " Product="FVOD" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1"/>
+      <App_Data App="MOD" Name="Series_ID" Value="MecanimalesT02"/>
+      <App_Data App="MOD" Name="Episode_Name" Value="La isla de la mecanimontaña rusa"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="serie" Asset_ID="EEANME201" Asset_Name="MecanimalesT02EP01_HD_package" Creation_Date="2022-01-31" Description="Serie Mecanimales " Product="FVOD" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="0">
+          <App_Data App="MOD" Name="Type" Value="series"/>
+          <App_Data App="MOD" Name="Type" Value="Stereo"/>
+          <App_Data App="MOD" Name="Type" Value="Y"/>
+          <App_Data App="MOD" Name="Type" Value="648115712"/>
+          <App_Data App="MOD" Name="Type" Value="H264 HD"/>
+        </AMS>
+        <Content/>
+      </Metadata>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="box cover" Asset_ID="EEANME201" Asset_Name="MecanimalesT02EP01_HD_package" Creation_Date="2022-01-05" Description="Serie Mecanimales " Product="FVOD" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="0">
+          <App_Data App="MOD" Name="Type" Value="box cover"/>
+        </AMS>
+        <Content/>
+      </Metadata>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="image" Asset_ID="EEANME201" Asset_Name="MecanimalesT02EP01_HD_package" Creation_Date="2022-01-05" Description="Serie Mecanimales " Product="FVOD" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="0">
+          <App_Data App="MOD" Name="Type" Value="image"/>
+          <App_Data App="MOD" Name="Image_Qualifier" Value="HighResLandscape"/>
+        </AMS>
+        <Content/>
+      </Metadata>
+    </Asset>
+  </Asset>
+</ADI>
