@@ -7,7 +7,7 @@ function formatDate(serial) {
   return date_info.toISOString().slice(0, 10);
 }
 
-function Display_Run_Time(serial) {
+function Display_Run_Time_end(serial) {
   let hour = Math.floor(serial * 24);
   let minute = Math.floor(Math.abs(serial * 24 * 60) % 60);
   let second = Math.floor(Math.abs(serial * 24 * 60 * 60) % 60);
@@ -19,7 +19,7 @@ function Display_Run_Time(serial) {
   return `${hour}:${minute}`;
 }
 
-Display_Run_Time(0.175);
+Display_Run_Time_end(0.175);
 
 function formatRun_Time(serial) {
   let hour = Math.floor(serial * 24);
@@ -34,4 +34,18 @@ function formatRun_Time(serial) {
 }
 formatRun_Time(0.0581481481481482);
 
-module.exports = { formatDate };
+
+function formatRun_Time_hour(serial) {
+  let hour = Math.floor(serial * 24);
+  let minute = Math.floor(Math.abs(serial * 24 * 60) % 60);
+  let second = Math.floor(Math.abs(serial * 24 * 60 * 60) % 60);
+  hour > 12 ? (hour = hour - 12) : (hour = hour);
+  hour = hour < 10 ? "0" + hour : hour;
+  minute = minute < 10 ? "0" + minute : minute;
+  second = second < 10 ? "0" + second : second;
+  console.log(`${hour}:${minute}:${second}`);
+  return `${hour}:${minute}`;
+}
+formatRun_Time_hour(0.0581481481481482);
+
+module.exports = { formatDate, formatRun_Time, Display_Run_Time_end, formatRun_Time_hour };

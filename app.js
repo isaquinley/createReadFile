@@ -9,8 +9,9 @@ function readExcelFile(file) {
 
   const sheetInput = prompt("Enter the option 1.standard 2.SD 3.HD : ");
   const sheet = workbookSheets[sheetInput];
-
+  
   const excelMetaData = XLXS.utils.sheet_to_json(workbook.Sheets[sheet]);
+  //console.log(excelMetaData)
   if (sheetInput === 0) {
     excelMetaData.forEach((excelInformation) => {
       collectInformation.collectInformation(excelInformation); // for each row in the excel file

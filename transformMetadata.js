@@ -1,9 +1,11 @@
 const { create } = require("xmlbuilder2");
 const formatDate = require("./utils/formats");
+const formatRun_Time_hour = require("./utils/formats");
+const formatRun_Time = require("./utils/formats");
 const fs = require("fs");
 
 async function collectInformation(info) {
-  // console.log(info);
+  console.log(info);
   const {
     FileName,
     Asset_Class,
@@ -22,6 +24,32 @@ async function collectInformation(info) {
     Version_Minor,
     Series_ID,
     Episode_Name,
+    Series_Name,
+    Series_Ordinal,
+    Episode_Ordinal,
+    Summary_Short,
+    Rating,
+    Run_Time,
+    Display_Run_Time,
+    Year,
+    Actors,
+    Actors_Display,
+    Genre,
+    Licensing_Window_Start,
+    Licensing_Window_End,
+    Type,
+    Title,
+    Title_Brief,
+    Director,
+    Country_of_Origin,
+    Show_ID,
+    Category,
+    Show_Type,
+    Gross_price,
+    Available_in_localities,
+    Show_Name,
+    Eds_Product_ID,
+    Net_price,
     Asset_Class_1,
     Asset_Class_2,
     Asset_Class_3,
@@ -91,8 +119,164 @@ async function collectInformation(info) {
     .up()
     .ele("App_Data", {
       App: "MOD",
-      Name: "Episode_Name",
+      Name: "Episode_Name ",
       Value: Episode_Name,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Series_Name",
+      Value: Series_Name,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Series_Ordinal",
+      Value: Series_Ordinal,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Episode_Ordinal",
+      Value: Episode_Ordinal,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Summary_Short",
+      Value: Summary_Short,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Rating",
+      Value: Rating,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Run_Time",
+      Value: formatRun_Time.formatRun_Time(Run_Time),
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Display_Run_Time",
+      Value: formatRun_Time_hour.formatRun_Time_hour(Display_Run_Time),
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Year",
+      Value: Year,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Actors",
+      Value: Actors,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Actors_Display",
+      Value: Actors_Display,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Genre",
+      Value: Genre,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Licensing_Window_Start",
+      Value: formatDate.formatDate(Licensing_Window_Start),
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Licensing_Window_End",
+      Value: formatDate.formatDate(Licensing_Window_End),
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Type",
+      Value: Type,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Title",
+      Value: Title,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Title_Brief",
+      Value: Title_Brief,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Director",
+      Value: Director,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Country_of_Origin",
+      Value: Country_of_Origin,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Show_ID",
+      Value: Show_ID,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Category",
+      Value: Category,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Show_Type",
+      Value: Show_Type,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Gross_price",
+      Value: Gross_price,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Available_in_localities",
+      Value: Available_in_localities,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Show_Name",
+      Value: Show_Name,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Eds_Product_ID",
+      Value: Eds_Product_ID,
+    })
+    .up()
+    .ele("App_Data", {
+      App: "MOD",
+      Name: "Net_price",
+      Value: Net_price,
     })
     .up()
     .up()
@@ -113,6 +297,7 @@ async function collectInformation(info) {
       Version_Major: Version_Major,
       Version_Minor: Version_Minor_1,
     })
+    .up()
     .ele("App_Data", {
       App: "MOD",
       Name: "Type",
@@ -121,25 +306,25 @@ async function collectInformation(info) {
     .up()
     .ele("App_Data", {
       App: "MOD",
-      Name: "Type",
+      Name: "Audio_Type",
       Value: Audio_Type,
     })
     .up()
     .ele("App_Data", {
-      App: "MOD",
-      Name: "Type",
+      App: "FVOD",
+      Name: "HDContent",
       Value: HDContent,
     })
     .up()
     .ele("App_Data", {
       App: "MOD",
-      Name: "Type",
+      Name: "Content_FileSize",
       Value: Content_FileSize,
     })
     .up()
     .ele("App_Data", {
-      App: "MOD",
-      Name: "Type",
+      App: "FVOD",
+      Name: "Encoding_Type",
       Value: Encoding_Type,
     })
     .up()
@@ -147,7 +332,7 @@ async function collectInformation(info) {
     .ele("Content", { Value: ContentValue })
     .up()
     .up()
-    .up()
+    
 
     //Block 4
     .ele("Asset")
@@ -165,6 +350,7 @@ async function collectInformation(info) {
       Version_Major: Version_Major,
       Version_Minor: Version_Minor_1,
     })
+    .up()
     .ele("App_Data", {
       App: "MOD",
       Name: "Type",
@@ -175,8 +361,7 @@ async function collectInformation(info) {
     .ele("Content", { Value: ContentValue_1 })
     .up()
     .up()
-    .up()
-
+    
     //Block 5
     .ele("Asset")
     .ele("Metadata")
@@ -193,6 +378,7 @@ async function collectInformation(info) {
       Version_Major: Version_Major,
       Version_Minor: Version_Minor_1,
     })
+    .up()
     .ele("App_Data", {
       App: "MOD",
       Name: "Type",
