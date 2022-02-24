@@ -8,7 +8,7 @@ function readExcelFile(file) {
   const workbook = XLXS.readFile(file);
   const workbookSheets = workbook.SheetNames; //for for each sheet
 
-  const sheetInput = prompt("Enter the option 1.standard 2.SD 3.HD : ");
+  const sheetInput = prompt("Enter the option 0.standard 1.SD 2.HD : ");
   const sheet = workbookSheets[sheetInput];
   
   const excelMetaData = XLXS.utils.sheet_to_json(workbook.Sheets[sheet]);
@@ -21,10 +21,12 @@ function readExcelFile(file) {
     excelMetaData.forEach((excelInformation) => {
       collectInformationSD.collectInformationSD(excelInformation); // for each row in the excel file
     });
-  } else {
-    //excelMetaData.forEach((excelInformation) => {
-    //  collectInformation.collectInformation(excelInformation); // for each row in the excel file
-    //});
+  } else if (sheetInput == 2) {
+    excelMetaData.forEach((excelInformation) => {
+      collectInformationSD.collectInformationSD(excelInformation); // for each row in the excel file
+    });
+  } else  {
+    console.log("Error, Enter the option 0.standard 1.SD 2.HD")
   }
 }
 
