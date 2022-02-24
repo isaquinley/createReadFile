@@ -1,6 +1,7 @@
 const XLXS = require("xlsx");
 const prompt = require("prompt-sync")({ sigint: true });
 const collectInformation = require("./transformMetadata");
+const collectInformationSD = require("./transformMetadataSD");
 const fs = require("fs");
 
 function readExcelFile(file) {
@@ -12,18 +13,18 @@ function readExcelFile(file) {
   
   const excelMetaData = XLXS.utils.sheet_to_json(workbook.Sheets[sheet]);
   //console.log(excelMetaData)
-  if (sheetInput === 0) {
+  if (sheetInput == 0) {
     excelMetaData.forEach((excelInformation) => {
       collectInformation.collectInformation(excelInformation); // for each row in the excel file
     });
-  } else if (sheetInput === 1) {
+  } else if (sheetInput == 1) {
     excelMetaData.forEach((excelInformation) => {
-      collectInformation.collectInformation(excelInformation); // for each row in the excel file
+      collectInformationSD.collectInformationSD(excelInformation); // for each row in the excel file
     });
   } else {
-    excelMetaData.forEach((excelInformation) => {
-      collectInformation.collectInformation(excelInformation); // for each row in the excel file
-    });
+    //excelMetaData.forEach((excelInformation) => {
+    //  collectInformation.collectInformation(excelInformation); // for each row in the excel file
+    //});
   }
 }
 
