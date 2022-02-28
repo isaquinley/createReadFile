@@ -5,7 +5,7 @@ const formatRun_Time = require("./utils/formats");
 const fs = require("fs");
 
 async function collectInformation(info) {
-  console.log(info);
+  //console.log(info);
   const {
     FileName,
     Asset_Class,

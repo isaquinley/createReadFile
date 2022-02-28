@@ -5,7 +5,7 @@ const formatRun_Time = require("./utils/formats");
 const fs = require("fs");
 
 async function collectInformationSD(info) {
-  console.log(info);
+  //console.log(info);
   const {
     FileName,
     Creation_Date,
@@ -100,7 +100,8 @@ async function collectInformationSD(info) {
     Image_Aspect_Ratio,
     ContentValue_2
     } = info;
-
+  
+  //Bloque Package
   const root = create({ version: "1.0", encoding: "utf-8" })
     .ele("ADI")
     .ele("Metadata")
@@ -126,20 +127,21 @@ async function collectInformationSD(info) {
     .up()
     .up()
 
+    //Bloque Title
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_1),
-      Product: Product_1,
-      Provider: Provider_1,
-      Provider_ID: Provider_ID_1,
+      Creation_Date: formatDate.formatDate(Creation_Date),
+      Product: Product,
+      Provider: Provider,
+      Provider_ID: Provider_ID,
       Verb: "",
-      Version_Major: Version_Major_1,
-      Version_Minor: Version_Minor_1,
+      Version_Major: Version_Major,
+      Version_Minor: Version_Minor,
       Asset_Class: Asset_Class_1,
-      Asset_ID: Asset_ID_1,
-      Asset_Name: Asset_Name_1,
-      Description: Description_1,
+      Asset_ID: Asset_ID,
+      Asset_Name: Asset_Name,
+      Description: Description,
     })
     .up()
 
@@ -177,12 +179,6 @@ async function collectInformationSD(info) {
     .ele("App_Data", {
       Name: "Rating",
       Value: Rating,
-      App: "FVOD",
-    })
-    .up()
-    .ele("App_Data", {
-      Name: "Studio_Code",
-      Value: Studio_Code,
       App: "FVOD",
     })
     .up()
@@ -296,21 +292,21 @@ async function collectInformationSD(info) {
     .up()
     .up()
 
-    //Block 3
+    //Bloque Movie
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_2),
-      Product: Product_2,
-      Provider: Provider_2,
-      Provider_ID: Provider_ID_2,
+      Creation_Date: formatDate.formatDate(Creation_Date),
+      Product: Product,
+      Provider: Provider,
+      Provider_ID: Provider_ID,
       Verb: "",
-      Version_Major: Version_Major_2,
-      Version_Minor: Version_Minor_2,
+      Version_Major: Version_Major,
+      Version_Minor: Version_Minor,
       Asset_Class: Asset_Class_2,
-      Asset_ID: Asset_ID_2,
-      Asset_Name: Asset_Name_2,
-      Description: Description_2,
+      Asset_ID: Asset_ID,
+      Asset_Name: Asset_Name,
+      Description: Description,
     })
     .up()
     .ele("App_Data", {
@@ -367,21 +363,21 @@ async function collectInformationSD(info) {
     .up()
     
 
-    //Block 4
+    //Bloque Box Cover
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_3),
-      Product: Product_3,
-      Provider: Provider_3,
-      Provider_ID: Provider_ID_3,
+      Creation_Date: formatDate.formatDate(Creation_Date),
+      Product: Product,
+      Provider: Provider,
+      Provider_ID: Provider_ID,
       Verb: "",
-      Version_Major: Version_Major_3,
-      Version_Minor: Version_Minor_3,
+      Version_Major: Version_Major,
+      Version_Minor: Version_Minor,
       Asset_Class: Asset_Class_3,
-      Asset_ID: Asset_ID_3,
-      Asset_Name: Asset_Name_3,
-      Description: Description_3,
+      Asset_ID: Asset_ID,
+      Asset_Name: Asset_Name,
+      Description: Description,
     })
     .up()
     .ele("App_Data", {
@@ -395,21 +391,21 @@ async function collectInformationSD(info) {
     .up()
     .up()
     
-    //Block 5
+    //Bloque Image
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_4),
-      Product: Product_4,
-      Provider: Provider_4,
-      Provider_ID: Provider_ID_4,
+      Creation_Date: formatDate.formatDate(Creation_Date),
+      Product: Product,
+      Provider: Provider,
+      Provider_ID: Provider_ID,
       Verb: "",
-      Version_Major: Version_Major_4,
-      Version_Minor: Version_Minor_4,
+      Version_Major: Version_Major,
+      Version_Minor: Version_Minor,
       Asset_Class: Asset_Class_4,
-      Asset_ID: Asset_ID_4,
-      Asset_Name: Asset_Name_4,
-      Description: Description_4,
+      Asset_ID: Asset_ID,
+      Asset_Name: Asset_Name,
+      Description: Description,
     })
     .up()
     .ele("App_Data", {
@@ -429,6 +425,9 @@ async function collectInformationSD(info) {
       Value: Image_Aspect_Ratio,
       App: "MOD",
     })
+    .up()
+    .ele("App_Data"
+    )
     .up()
     .up()
     .ele("Content", { Value: ContentValue_2 })

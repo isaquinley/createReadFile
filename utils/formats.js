@@ -31,8 +31,8 @@ function formatRun_Time_hour(serial) {
   hour = hour < 10 ? "0" + hour : hour;
   minute = minute < 10 ? "0" + minute : minute;
   second = second < 10 ? "0" + second : second;
-  //console.log(`${minute}:${second}`);
-  return `${minute}:${second}`;
+  //console.log(`${hour}:${minute}`);
+  return `${hour}:${minute}`;
 }
 formatRun_Time_hour(0.0581481481481482);
 
