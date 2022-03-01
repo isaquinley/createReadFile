@@ -98,7 +98,7 @@ async function collectInformationHD(info) {
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_1),
+      Creation_Date: formatDate.formatDate(Creation_Date),
       Product: Product,
       Provider: Provider,
       Provider_ID: Provider_ID,
@@ -262,7 +262,7 @@ async function collectInformationHD(info) {
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_2),
+      Creation_Date: formatDate.formatDate(Creation_Date),
       Product: Product,
       Provider: Provider,
       Provider_ID: Provider_ID,
@@ -332,7 +332,7 @@ async function collectInformationHD(info) {
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_3),
+      Creation_Date: formatDate.formatDate(Creation_Date),
       Product: Product,
       Provider: Provider,
       Provider_ID: Provider_ID,
@@ -360,7 +360,7 @@ async function collectInformationHD(info) {
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_4),
+      Creation_Date: formatDate.formatDate(Creation_Date),
       Product: Product,
       Provider: Provider,
       Provider_ID: Provider_ID,

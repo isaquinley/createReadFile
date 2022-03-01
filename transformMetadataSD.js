@@ -5,7 +5,7 @@ const formatRun_Time = require("./utils/formats");
 const fs = require("fs");
 
 async function collectInformationSD(info) {
-  // console.log(info);
+  console.log(info);
   const {
     FileName,
     Creation_Date,
@@ -99,7 +99,7 @@ async function collectInformationSD(info) {
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_1),
+      Creation_Date: formatDate.formatDate(Creation_Date),
       Product: Product,
       Provider: Provider,
       Provider_ID: Provider_ID,
@@ -263,7 +263,7 @@ async function collectInformationSD(info) {
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_2),
+      Creation_Date: formatDate.formatDate(Creation_Date),
       Product: Product,
       Provider: Provider,
       Provider_ID: Provider_ID,
@@ -333,7 +333,7 @@ async function collectInformationSD(info) {
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_3),
+      Creation_Date: formatDate.formatDate(Creation_Date),
       Product: Product,
       Provider: Provider,
       Provider_ID: Provider_ID,
@@ -361,7 +361,7 @@ async function collectInformationSD(info) {
     .ele("Asset")
     .ele("Metadata")
     .ele("AMS", {
-      Creation_Date: formatDate.formatDate(Creation_Date_4),
+      Creation_Date: formatDate.formatDate(Creation_Date),
       Product: Product,
       Provider: Provider,
       Provider_ID: Provider_ID,
