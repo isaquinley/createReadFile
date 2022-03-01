@@ -5,7 +5,7 @@ const formatRun_Time = require("./utils/formats");
 const fs = require("fs");
 
 async function collectInformationSD(info) {
-  //console.log(info);
+  console.log(info);
   const {
     FileName,
     Creation_Date,
@@ -18,16 +18,8 @@ async function collectInformationSD(info) {
     Asset_ID,
     Description,
     Asset_Name,
-    Creation_Date_1,
-    Product_1,
-    Provider_1,
-    Provider_ID_1,
-    Version_Major_1,
-    Version_Minor_1,
     Asset_Class_1,
-    Asset_ID_1,
-    Asset_Name_1,
-    Description_1,
+    Creation_Date_1,
     Type,
     Title,
     Title_Brief,
@@ -54,16 +46,8 @@ async function collectInformationSD(info) {
     Studio_Name,
     Actors,
     Director,
-    Creation_Date_2,
-    Product_2,
-    Provider_2,
-    Provider_ID_2,
-    Version_Major_2,
-    Version_Minor_2,
     Asset_Class_2,
-    Asset_ID_2,
-    Asset_Name_2,
-    Description_2,
+    Creation_Date_2,
     Type_1,
     Audio_Type,
     Screen_Format,
@@ -73,34 +57,18 @@ async function collectInformationSD(info) {
     HDContent,
     Encoding_Type,
     ContentValue,
-    Creation_Date_3,
-    Product_3,
-    Provider_3,
-    Provider_ID_3,
-    Version_Major_3,
-    Version_Minor_3,
     Asset_Class_3,
-    Asset_ID_3,
-    Asset_Name_3,
-    Description_3,
+    Creation_Date_3,
     Type_2,
     ContentValue_1,
-    Creation_Date_4,
-    Product_4,
-    Provider_4,
-    Provider_ID_4,
-    Version_Major_4,
-    Version_Minor_4,
     Asset_Class_4,
-    Asset_ID_4,
-    Asset_Name_4,
-    Description_4,
+    Creation_Date_4,
     Type_3,
     Image_Qualifier,
     Image_Aspect_Ratio,
-    ContentValue_2
-    } = info;
-  
+    ContentValue_2,
+  } = info;
+
   //Bloque Package
   const root = create({ version: "1.0", encoding: "utf-8" })
     .ele("ADI")
@@ -145,7 +113,6 @@ async function collectInformationSD(info) {
     })
     .up()
 
-    
     .ele("App_Data", {
       Name: "Type",
       Value: Type,
@@ -361,7 +328,6 @@ async function collectInformationSD(info) {
     .ele("Content", { Value: ContentValue })
     .up()
     .up()
-    
 
     //Bloque Box Cover
     .ele("Asset")
@@ -390,7 +356,7 @@ async function collectInformationSD(info) {
     .ele("Content", { Value: ContentValue_1 })
     .up()
     .up()
-    
+
     //Bloque Image
     .ele("Asset")
     .ele("Metadata")
@@ -426,8 +392,7 @@ async function collectInformationSD(info) {
       App: "MOD",
     })
     .up()
-    .ele("App_Data"
-    )
+    .ele("App_Data")
     .up()
     .up()
     .ele("Content", { Value: ContentValue_2 })
@@ -436,7 +401,7 @@ async function collectInformationSD(info) {
   const xml = root.end({ prettyPrint: true });
   // console.log(xml);
 
-  await fs.writeFile(`${FileName}`, xml, (err) => {
+  await fs.writeFile(`./SD/${FileName}`, xml, (err) => {
     if (err) console.log(err);
     else {
       console.log("File written successfully\n");
