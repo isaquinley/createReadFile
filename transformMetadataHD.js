@@ -8,7 +8,7 @@ async function collectInformationHD(info) {
   // console.log(info);
   const {
     FileName,
-    Creation_Date,
+    Creation_Date = 44562,
     Product,
     Provider,
     Provider_ID,
@@ -18,7 +18,6 @@ async function collectInformationHD(info) {
     Asset_ID,
     Description,
     Asset_Name,
-    Creation_Date_1,
     Asset_Class_1,
     Type,
     Title,
@@ -26,15 +25,14 @@ async function collectInformationHD(info) {
     Summary_Short,
     Summary_Long,
     Rating,
-    Studio_Code,
-    Run_Time,
-    Display_Run_Time,
+    Run_Time = 0,
+    Display_Run_Time = 0,
     Year,
     Category,
     Genre,
     Distributor_Name,
-    Licensing_Window_Start,
-    Licensing_Window_End,
+    Licensing_Window_Start = 0,
+    Licensing_Window_End = 0,
     Audience,
     Billing_ID,
     Title_Sort_Name,
@@ -46,7 +44,6 @@ async function collectInformationHD(info) {
     Actors,
     Director,
     Asset_Class_2,
-    Creation_Date_2,
     Type_1,
     Audio_Type,
     Screen_Format,
@@ -55,17 +52,15 @@ async function collectInformationHD(info) {
     Content_FileSize,
     HDContent,
     Encoding_Type,
-    ContentValue,
-    Creation_Date_3,
+    Content_Value,
     Asset_Class_3,
     Type_2,
-    ContentValue_1,
-    Creation_Date_4,
+    Content_Value_1,
     Asset_Class_4,
     Type_3,
     Image_Qualifier,
     Image_Aspect_Ratio,
-    ContentValue_2,
+    Content_Value_2,
   } = info;
 
   //Bloque Package
@@ -324,7 +319,7 @@ async function collectInformationHD(info) {
     })
     .up()
     .up()
-    .ele("Content", { Value: ContentValue })
+    .ele("Content", { Value: Content_Value })
     .up()
     .up()
 
@@ -352,7 +347,7 @@ async function collectInformationHD(info) {
     })
     .up()
     .up()
-    .ele("Content", { Value: ContentValue_1 })
+    .ele("Content", { Value: Content_Value_1 })
     .up()
     .up()
 
@@ -394,7 +389,7 @@ async function collectInformationHD(info) {
     .ele("App_Data")
     .up()
     .up()
-    .ele("Content", { Value: ContentValue_2 })
+    .ele("Content", { Value: Content_Value_2 })
     .up();
 
   const xml = root.end({ prettyPrint: true });

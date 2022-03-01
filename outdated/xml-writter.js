@@ -54,7 +54,7 @@ function transformData(info) {
 
   xw.endDocument();
 
-  console.log(xw.toString());
+  //console.log(xw.toString());
 }
 
 module.exports = { transformData };

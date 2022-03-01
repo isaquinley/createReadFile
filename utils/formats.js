@@ -3,7 +3,6 @@ function formatDate(serial) {
   //console.log(Math.floor(serial - 25569));
   let utc_value = utc_days * 86400;
   let date_info = new Date(utc_value * 1000);
-
   return date_info.toISOString().slice(0, 10);
 }
 
