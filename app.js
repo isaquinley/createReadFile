@@ -2,6 +2,7 @@ const XLXS = require("xlsx");
 const prompt = require("prompt-sync")({ sigint: true });
 const collectInformation = require("./transformMetadata");
 const collectInformationSD = require("./transformMetadataSD");
+const collectInformationHD = require("./transformMetadataHD");
 const fs = require("fs");
 
 function readExcelFile(file) {
@@ -10,7 +11,7 @@ function readExcelFile(file) {
 
   const sheetInput = prompt("Enter the option 0.standard 1.SD 2.HD : ");
   const sheet = workbookSheets[sheetInput];
-  
+
   const excelMetaData = XLXS.utils.sheet_to_json(workbook.Sheets[sheet]);
   //console.log(excelMetaData)
   if (sheetInput == 0) {
@@ -23,10 +24,10 @@ function readExcelFile(file) {
     });
   } else if (sheetInput == 2) {
     excelMetaData.forEach((excelInformation) => {
-      collectInformationSD.collectInformationSD(excelInformation); // for each row in the excel file
+      collectInformationHD.collectInformationHD(excelInformation); // for each row in the excel file
     });
-  } else  {
-    console.log("Error, Enter the option 0.standard 1.SD 2.HD")
+  } else {
+    console.log("Error, Enter the option 0.standard 1.SD 2.HD");
   }
 }
 
