@@ -13,7 +13,7 @@
       <App_Data Name="Summary_Short" Value="Edye presenta: Harry rompe la taza favorita de su madre y la lleva al Dino-mundo para repararla." App="FVOD"/>
       <App_Data Name="Summary_Long" Value="Edye presenta: Harry rompe accidentalmente la taza favorita de su madre. Harry, Charlie y los Dinos no pueden arreglarla, así que la llevan al Dino-mundo para intentar repararla. Incapaz de hacerlo, Harry se ve obligado a admitir ante su madre que la ha roto. " App="FVOD"/>
       <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
-      <App_Data Name="Run_Time" Value="NaN:NaN:NaN" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:11:00" App="FVOD"/>
       <App_Data Name="Display_Run_Time" Value="00:11" App="FVOD"/>
       <App_Data Name="Year" Value="2005" App="FVOD"/>
       <App_Data Name="Category" Value="Infantil/Harry y su cubeta de dinosaurios" App="FVOD"/>
