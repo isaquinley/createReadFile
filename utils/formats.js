@@ -27,7 +27,7 @@ function formatRun_Time(serial) {
 }
 
 function formatRun_Time_hour(serial) {
-  if (condition) {
+  if (serial) {
     let hour = Math.floor(serial * 24);
     let minute = Math.floor(Math.abs(serial * 24 * 60) % 60);
     let second = Math.floor(Math.abs(serial * 24 * 60 * 60) % 60);
