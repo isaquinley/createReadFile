@@ -28,7 +28,7 @@
       <App_Data Name="Actors_Display" Value="Rasmus Hardiker, Marc Silk, Nicholls Sue Elliott ,Teresa Gallagher , Kerry Shake " App="FVOD"/>
       <App_Data Name="Studio" Value="Dr.Panda Ltd" App="FVOD"/>
       <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
-      <App_Data Name="Studio_Name" Value="Dr.Panda Ltd " App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Dr.Panda Ltd" App="FVOD"/>
       <App_Data Name="Actors" Value="Hardiker Rasmus, Silk Marc, Elliott Nicholls Sue, Gallagher Teresa, Shake Kerry" App="FVOD"/>
       <App_Data Name="Director" Value="Chin, Patrick" App="FVOD"/>
     </Metadata>

@@ -11,7 +11,7 @@
       <App_Data Name="Title" Value="Harry y su cubeta de dinosaurios T01 EP02" App="FVOD"/>
       <App_Data Name="Title_Brief" Value="EP 02" App="FVOD"/>
       <App_Data Name="Summary_Short" Value="Edye presenta: Harry debe devolver su libro a la biblioteca pero en su lugar,  decide ocultarlo en Dino-mundo." App="FVOD"/>
-      <App_Data Name="Summary_Long" Value="Edye presenta: Harry está molesto al saber que debe devolver su libro de la biblioteca, por lo que decide ocultarlo en Dino-mundo. Aunque Harry y los dinosaurios intentan entretener al libro, no es feliz en el Dino-mundo e intenta escapar. " App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Harry está molesto al saber que debe devolver su libro de la biblioteca, por lo que decide ocultarlo en Dino-mundo. Aunque Harry y los dinosaurios intentan entretener al libro, no es feliz en el Dino-mundo e intenta escapar." App="FVOD"/>
       <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
       <App_Data Name="Run_Time" Value="00:11:00" App="FVOD"/>
       <App_Data Name="Display_Run_Time" Value="00:11" App="FVOD"/>
@@ -44,16 +44,14 @@
         <App_Data Name="HDContent" Value="N" App="FVOD"/>
         <App_Data Name="Encoding_Type" Value="MPEG2" App="FVOD"/>
       </Metadata>
-      <Content Value="EEHBFD
-102.mpg"/>
+      <Content Value="EEHBFD102.mpg"/>
     </Asset>
     <Asset>
       <Metadata>
         <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEHB6000000000000102" Asset_Name="Harry y su cubeta de dinosauriosT01EP02" Description="Serie Harry y su cubeta de dinosaurios"/>
         <App_Data Name="Type" Value="box cover" App="FVOD"/>
       </Metadata>
-      <Content Value="EEHBFD
-1_box.jpg"/>
+      <Content Value="EEHBFD1_box.jpg"/>
     </Asset>
     <Asset>
       <Metadata>
@@ -63,8 +61,7 @@
         <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
         <App_Data/>
       </Metadata>
-      <Content Value="EEHBFD
-102_land.jpg"/>
+      <Content Value="EEHBFD102_land.jpg"/>
     </Asset>
   </Asset>
 </ADI>
