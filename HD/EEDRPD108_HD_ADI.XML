@@ -26,9 +26,9 @@
       <App_Data Name="Title_Sort_Name" Value="Dr. Panda" App="FVOD"/>
       <App_Data Name="Country_Of_Origin" Value="CA" App="FVOD"/>
       <App_Data Name="Actors_Display" Value="Rasmus Hardiker, Marc Silk, Nicholls Sue Elliott ,Teresa Gallagher , Kerry Shake " App="FVOD"/>
-      <App_Data Name="Studio" Value="Dr.Panda Ltd  " App="FVOD"/>
+      <App_Data Name="Studio" Value="Dr.Panda Ltd" App="FVOD"/>
       <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
-      <App_Data Name="Studio_Name" Value="Dr.Panda Ltd  " App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Dr.Panda Ltd" App="FVOD"/>
       <App_Data Name="Actors" Value="Hardiker Rasmus, Silk Marc, Elliott Nicholls Sue, Gallagher Teresa, Shake Kerry" App="FVOD"/>
       <App_Data Name="Director" Value="Vernooij, Wip" App="FVOD"/>
     </Metadata>
@@ -44,18 +44,14 @@
         <App_Data Name="HDContent" Value="Y" App="FVOD"/>
         <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
       </Metadata>
-      <Content Value="EEDRPD
-
-108.ts"/>
+      <Content Value="EEDRPD108.ts"/>
     </Asset>
     <Asset>
       <Metadata>
         <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEDR7000000000000108" Asset_Name="Dr. PandaT01EP08" Description="Serie Dr. Panda"/>
         <App_Data Name="Type" Value="box cover" App="FVOD"/>
       </Metadata>
-      <Content Value="EEDRPD
-
-1_box.jpg"/>
+      <Content Value="EEDRPD1_box.jpg"/>
     </Asset>
     <Asset>
       <Metadata>
@@ -65,9 +61,7 @@
         <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
         <App_Data/>
       </Metadata>
-      <Content Value="EEDRPD
-
-108_land.jpg"/>
+      <Content Value="EEDRPD108_land.jpg"/>
     </Asset>
   </Asset>
 </ADI>
