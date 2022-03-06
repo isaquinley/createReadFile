@@ -44,16 +44,14 @@
         <App_Data Name="HDContent" Value="Y" App="FVOD"/>
         <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
       </Metadata>
-      <Content Value="EEHBFD
-109.ts"/>
+      <Content Value="EEHBFD109.ts"/>
     </Asset>
     <Asset>
       <Metadata>
         <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEHB7000000000000109" Asset_Name="Harry y su cubeta de dinosauriosT01EP09" Description="Serie Harry y su cubeta de dinosaurios"/>
         <App_Data Name="Type" Value="box cover" App="FVOD"/>
       </Metadata>
-      <Content Value="EEHBFD
-1_box.jpg"/>
+      <Content Value="EEHBFD1_box.jpg"/>
     </Asset>
     <Asset>
       <Metadata>
@@ -63,8 +61,7 @@
         <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
         <App_Data/>
       </Metadata>
-      <Content Value="EEHBFD
-109_land.jpg"/>
+      <Content Value="EEHBFD109_land.jpg"/>
     </Asset>
   </Asset>
 </ADI>
