@@ -7,9 +7,8 @@ const fs = require("fs");
 
 function readExcelFile(file) {
   const workbook = XLXS.readFile(file);
-
   const workbookSheets = workbook.SheetNames; //for for each sheet
-  console.log(workbookSheets);
+  
   const sheetInput = prompt("Enter the option 0.SD 1.HD : ");
   const sheet = workbookSheets[sheetInput];
 
@@ -28,4 +27,5 @@ function readExcelFile(file) {
   }
 }
 
-readExcelFile("XML_EEMMMT_T01_SD_HD.xlsx");
+//readExcelFile("MECANIMALEST02_VALUES_FOR_XML_VTR.xlsx");
+readExcelFile("XML_SD_HD.xlsx");
