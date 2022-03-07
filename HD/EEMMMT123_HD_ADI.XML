@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEMM7000000000000123" Description="Serie Las Aventuras de Meteor" Asset_Name="Las Aventuras de MeteorT01EP23"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEMM7000000000000123" Asset_Name="Las Aventuras de MeteorT01EP23" Description="Serie Las Aventuras de Meteor"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Las Aventuras de Meteor T01 EP23 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 23" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Meteoro aprende que se puede ser un gran vehículo espacial, aunque no gane todas las carreras." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Meteoro aprende que se puede ser un gran vehículo espacial, a pesar de no ganar todas las carreras, cuando Cosmo Starfinder, uno de sus héroes espaciales, hace correr a los pequeños camiones durante un recorrido de entrenamiento en la escuela." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:11:30" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:12" App="FVOD"/>
+      <App_Data Name="Year" Value="2006" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Las Aventuras de Meteor" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2019-08-01" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-07-31" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Las Aventuras de Meteor" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="USA" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Ansell Cameron, Eisner Mitchell, Isen Tajja, Petronijevic Dan, Saunders Cliff" App="FVOD"/>
+      <App_Data Name="Studio" Value="Meteor the Monster" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Meteor the Monster" App="FVOD"/>
+      <App_Data Name="Actors" Value="Ansell Cameron, Eisner Mitchell, Isen Tajja, Petronijevic Dan, Saunders Cliff" App="FVOD"/>
+      <App_Data Name="Director" Value="Hierons, Trevor" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEMM7000000000000123" Asset_Name="Las Aventuras de MeteorT01EP23" Description="Serie Las Aventuras de Meteor"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="648173052" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEMMMT123.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEMM7000000000000123" Asset_Name="Las Aventuras de MeteorT01EP23" Description="Serie Las Aventuras de Meteor"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEMMMT1_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEMM7000000000000123" Asset_Name="Las Aventuras de MeteorT01EP23" Description="Serie Las Aventuras de Meteor"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEMMMT123_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
