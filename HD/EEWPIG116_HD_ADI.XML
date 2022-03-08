@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEWP7000000000000116" Description="Serie Las Aventuras de Wibbly" Asset_Name="Las Aventuras de WibblyT01EP16"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEWP7000000000000116" Asset_Name="Las Aventuras de WibblyT01EP16" Description="Serie Las Aventuras de Wibbly"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Las Aventuras de Wibbly T01 EP16 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 16" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Wibbly tiene un nuevo soplador de burbujas y todos pueden soplar burbujas perfectas excepto él." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Wibbly es el orgulloso propietario de un nuevo soplador de burbujas, ¡pero todos los demás pueden soplar burbujas perfectas excepto él! Cuando finalmente sopla algunas, forman una burbuja Wibbly, lo que lo lleva a una divertida aventura burbujeante." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:09:59" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:10" App="FVOD"/>
+      <App_Data Name="Year" Value="2009" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Las Aventuras de Wibbly" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2019-08-01" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-07-31" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Las Aventuras de Wibbly" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="CA" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Liam Tully, Deo Simcox, Mark Ramsay, Zoe Fraser, Jacob Ewaniuk" App="FVOD"/>
+      <App_Data Name="Studio" Value="WP Productions" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="WP Productions" App="FVOD"/>
+      <App_Data Name="Actors" Value="Tully Liam, Simcox Deo, Ramsay Mark, Fraser Zoe, Ewaniuk Jacob" App="FVOD"/>
+      <App_Data Name="Director" Value="Hall, Jez" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEWP7000000000000116" Asset_Name="Las Aventuras de WibblyT01EP16" Description="Serie Las Aventuras de Wibbly"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="563005480" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEWPIG116.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEWP7000000000000116" Asset_Name="Las Aventuras de WibblyT01EP16" Description="Serie Las Aventuras de Wibbly"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEWPIG1_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEWP7000000000000116" Asset_Name="Las Aventuras de WibblyT01EP16" Description="Serie Las Aventuras de Wibbly"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEWPIG116_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
