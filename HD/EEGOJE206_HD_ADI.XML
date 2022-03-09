@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEGO7000000000000206" Description="Serie Go Jetters" Asset_Name="Go JettersT02EP06"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEGO7000000000000206" Asset_Name="Go JettersT02EP06" Description="Serie Go Jetters"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Go Jetters T02 EP06 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 06" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Un Grimbot gigante rebota sobre el valle de Machu Picchu. ¿Podrán los Go Jetters detenerlo?" App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Los Go Jetters van a la antigua ciudad Peruana de Machu Picchu para ver a Kyan competir en la Maratón del Inca. En el cielo, Gran Maestro Glitch trata de reparar a su Grimbot cuando un resorte suelto lo hace rebotar dentro del Cuartel Sucio como un juguete." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:11:00" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:11" App="FVOD"/>
+      <App_Data Name="Year" Value="2017" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Go Jetters" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2020-07-15" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2025-03-31" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Go Jetters" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="UK" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Akie Kotabe,Tommie Earl Jenkins, Syrus Lowe, John Hasler, Pilar Orti, Marc Silk, Naomi McDonald" App="FVOD"/>
+      <App_Data Name="Studio" Value="BBC" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="BBC" App="FVOD"/>
+      <App_Data Name="Actors" Value="Kotabe Akie, Jenkins Tommie Earl, Lowe Syrus, Hasler John, Orti Pilar, Silk Marc, McDonald Naomi" App="FVOD"/>
+      <App_Data Name="Director" Value="Shaw, Adam" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEGO7000000000000206" Asset_Name="Go JettersT02EP06" Description="Serie Go Jetters"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="620156728" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEGOJE206.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEGO7000000000000206" Asset_Name="Go JettersT02EP06" Description="Serie Go Jetters"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEGOJE2_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEGO7000000000000206" Asset_Name="Go JettersT02EP06" Description="Serie Go Jetters"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEGOJE206_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
