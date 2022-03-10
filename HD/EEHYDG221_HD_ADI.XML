@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEHY7000000000000221" Description="Serie Hola Duggee" Asset_Name="Hola DuggeeT02EP21"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEHY7000000000000221" Asset_Name="Hola DuggeeT02EP21" Description="Serie Hola Duggee"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Hola Duggee T02 EP21 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 21" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Las ardillas están ocupadas haciendo colecciones de sus cosas favoritas." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Duggee está limpiando su colección de cajas de galletas, una de las muchas cosas que colecciona. Las ardillas se inspiran para hacer sus propias colecciones. Se ocupan en hacer sus colecciones, y luego exhiben sus tesoros en el club." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:07:05" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:07" App="FVOD"/>
+      <App_Data Name="Year" Value="2016" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Hola Duggee" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2020-07-15" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2025-03-31" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Hola Duggee" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="UK" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Alexander Armstrong" App="FVOD"/>
+      <App_Data Name="Studio" Value="Studio AKA Ltd" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Studio AKA Ltd" App="FVOD"/>
+      <App_Data Name="Actors" Value="Armstrong Alexander" App="FVOD"/>
+      <App_Data Name="Director" Value="Orchard, Grant" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEHY7000000000000221" Asset_Name="Hola DuggeeT02EP21" Description="Serie Hola Duggee"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="399836144" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEHYDG221.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEHY7000000000000221" Asset_Name="Hola DuggeeT02EP21" Description="Serie Hola Duggee"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEHYDG2_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-03" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEHY7000000000000221" Asset_Name="Hola DuggeeT02EP21" Description="Serie Hola Duggee"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEHYDG221_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
