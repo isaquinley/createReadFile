@@ -28,4 +28,4 @@ function readExcelFile(file) {
 }
 
 //readExcelFile("MECANIMALEST02_VALUES_FOR_XML_VTR.xlsx");
-readExcelFile("XML_SD_HD.xlsx");
+readExcelFile("UPDATED-XML_EEDITR_T01_SD_HD-101-126.xlsx");
