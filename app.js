@@ -27,5 +27,4 @@ function readExcelFile(file) {
   }
 }
 
-//readExcelFile("MECANIMALEST02_VALUES_FOR_XML_VTR.xlsx");
-readExcelFile("UPDATED-XML_EEDITR_T01_SD_HD-101-126.xlsx");
+readExcelFile("UPDATED-XML_EESIDK_T01_SD_HD_101-113.xlsx");
