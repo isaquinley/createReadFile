@@ -27,8 +27,4 @@ function readExcelFile(file) {
   }
 }
 
-<<<<<<< HEAD
 readExcelFile("Run_File.xlsx");
-=======
-readExcelFile("UPDATED-XML_EEPIPU_T03_SD_HD_301-326.xlsx");
->>>>>>> f21deebac377bba4aa1a74d0af4ad9ff61aa39b8
