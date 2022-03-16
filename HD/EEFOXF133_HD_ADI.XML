@@ -29,8 +29,7 @@
       <App_Data Name="Studio" Value="Dargaud/Ellipsanime" App="FVOD"/>
       <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
       <App_Data Name="Studio_Name" Value="Dargaud/Ellipsanime" App="FVOD"/>
-      <App_Data Name="Actors" Value="Chase Kaycie, Combes Caroline, Boudonnat Lucille, Gatto Cécile, Magnes Bruno, Marot Kelly, Arthuys Sophie,Le Minoux Martial
-" App="FVOD"/>
+      <App_Data Name="Actors" Value="Chase Kaycie, Combes Caroline, Boudonnat Lucille, Gatto Cécile, Magnes Bruno, Marot Kelly, Arthuys Sophie,Le Minoux Martial" App="FVOD"/>
       <App_Data Name="Director" Value="Ferrier, Florian" App="FVOD"/>
     </Metadata>
     <Asset>
