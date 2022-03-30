@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-02" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEHE7000000000000105" Description="Serie Heidi" Asset_Name="HeidiT01EP05"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-02" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEHE7000000000000105" Asset_Name="HeidiT01EP05" Description="Serie Heidi"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Heidi T01 EP05 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 05" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Pedro invita a Heidi a su casa del árbol y juran nunca traicionarse y ser siempre amigos." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Pedro cree que Heidi vio su casa del árbol y se enfada.Heidi se entera que Karl y su pandilla quieren atacar la casa del árbol y arruina su plan. Pedro agradecido la invita a su casa del árbol y juran nunca traicionarse y ser siempre amigos." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:21:50" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:22" App="FVOD"/>
+      <App_Data Name="Year" Value="2014" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Heidi" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2019-04-10" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-01-31" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Heidi" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="FR" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Nathalie Homs, Emmylou Homs, Benoît Allemane, Lucille Boudonnat, Vanina Pradier, Gilduin Tissier" App="FVOD"/>
+      <App_Data Name="Studio" Value="Heidi Productions" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Heidi Productions" App="FVOD"/>
+      <App_Data Name="Actors" Value="Homs Nathalie, Homs Emmylou, Allemane Benoît, Boudonnat Lucille, Pradier Vanina, Tissier Gilduin" App="FVOD"/>
+      <App_Data Name="Director" Value="Mouscadet, Jérôme" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-02" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEHE7000000000000105" Asset_Name="HeidiT01EP05" Description="Serie Heidi"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="1229394792" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEHEID105.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-02" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEHE7000000000000105" Asset_Name="HeidiT01EP05" Description="Serie Heidi"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEHEID1_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-02" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEHE7000000000000105" Asset_Name="HeidiT01EP05" Description="Serie Heidi"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEHEID105_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
