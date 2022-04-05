@@ -145,13 +145,13 @@ async function collectInformationHD(info) {
     .up()
     .ele("App_Data", {
       Name: "Run_Time",
-      Value: formatRun_Time.formatRun_Time(Run_Time),
+      Value: Run_Time,
       App: "FVOD",
     })
     .up()
     .ele("App_Data", {
       Name: "Display_Run_Time",
-      Value: formatRun_Time_hour.formatRun_Time_hour(Display_Run_Time),
+      Value: Display_Run_Time,
       App: "FVOD",
     })
     .up()
