@@ -10,8 +10,8 @@
       <App_Data Name="Type" Value="title" App="FVOD"/>
       <App_Data Name="Title" Value="Los Preescolares T01 EP35 HD" App="FVOD"/>
       <App_Data Name="Title_Brief" Value="EP 35" App="FVOD"/>
-      <App_Data Name="Summary_Short" Value="Edye presenta: ¡Los preescolares aprenden algo nuevo todos los días! Juntos, junto con su maestro, el cocinero, el portero y el Sr. Ben, la diversión nunca se detiene. Cada episodio de cuatro minutos contiene una lección valiosa que se enseña en un ambiente amistoso, colorido y cálido. Abarcando una amplia gama de temas, desde el color hasta la música, desde los animales hasta el baile, siempre hay una aventura que se puede vivir." App="FVOD"/>
-      <App_Data Name="Summary_Long" Value="Edye presenta: Los niños arman una batalla de bolas de nieve en la cual el Sr. Ben se involucra." App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Los niños arman una batalla de bolas de nieve en la cual el Sr. Ben se involucra." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Es un día con nieve y los niños hacen una batalla de bolas de nieve. El Sr. Ben decide unirse a ellos, pero sus bolas resultan ser demasiado grandes." App="FVOD"/>
       <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
       <App_Data Name="Run_Time" Value="00:04:00" App="FVOD"/>
       <App_Data Name="Display_Run_Time" Value="00:04" App="FVOD"/>

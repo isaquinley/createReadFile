@@ -10,8 +10,8 @@
       <App_Data Name="Type" Value="title" App="FVOD"/>
       <App_Data Name="Title" Value="Los Preescolares T01 EP09" App="FVOD"/>
       <App_Data Name="Title_Brief" Value="EP 09" App="FVOD"/>
-      <App_Data Name="Summary_Short" Value="Edye presenta: ¡Los preescolares aprenden algo nuevo todos los días! Juntos, junto con su maestro, el cocinero, el portero y el Sr. Ben, la diversión nunca se detiene. Cada episodio de cuatro minutos contiene una lección valiosa que se enseña en un ambiente amistoso, colorido y cálido. Abarcando una amplia gama de temas, desde el color hasta la música, desde los animales hasta el baile, siempre hay una aventura que se puede vivir." App="FVOD"/>
-      <App_Data Name="Summary_Long" Value="Edye presenta: El portero está usando lentes térmicas. Los niños aprenden sobre colores fríos y cálidos." App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: El portero está usando lentes térmicas. Los niños aprenden sobre colores fríos y cálidos." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: En un día de otoño, el portero está aislando una ventana y usa lentes térmicos. Gracias a ello, los niños aprenden la diferencia entre los colores cálidos y los fríos." App="FVOD"/>
       <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
       <App_Data Name="Run_Time" Value="00:04:01" App="FVOD"/>
       <App_Data Name="Display_Run_Time" Value="00:04" App="FVOD"/>
