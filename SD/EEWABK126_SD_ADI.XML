@@ -11,7 +11,7 @@
       <App_Data Name="Title" Value="Las Aventuras de Blinky Bill T01 EP26" App="FVOD"/>
       <App_Data Name="Title_Brief" Value="EP 26" App="FVOD"/>
       <App_Data Name="Summary_Short" Value="Edye presenta: Cranky toma la brújula del padre de Blinky como pagode un nuevo impuesto y Blinky enfurece." App="FVOD"/>
-      <App_Data Name="Summary_Long" Value="Edye presenta: Cranky ha instituido un nuevo feriado, el 'Día de Cranky', lo que significa que necesitarán un nuevo impuesto para pagarlo. Cuando toma la brújula del padre de Blinky como pago, Blinky enfurece." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Cranky ha instituido un nuevo feriado, el &quot;Día de Cranky&quot;, lo que significa que necesitarán un nuevo impuesto para pagarlo. Cuando toma la brújula del padre de Blinky como pago, Blinky enfurece." App="FVOD"/>
       <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
       <App_Data Name="Run_Time" Value="00:12:06" App="FVOD"/>
       <App_Data Name="Display_Run_Time" Value="00:12" App="FVOD"/>
