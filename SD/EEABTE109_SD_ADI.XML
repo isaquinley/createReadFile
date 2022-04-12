@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEAB6000000000000109" Description="Serie Las aventuras de Abney y Teal" Asset_Name="Las aventuras de Abney y TealT01EP09"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEAB6000000000000109" Asset_Name="Las aventuras de Abney y TealT01EP09" Description="Serie Las aventuras de Abney y Teal"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Las aventuras de Abney y Teal T01 EP09" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 09" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Neep, Abney y Teal se elevan por el cielo más y más alto, lo que pone a Abney nervioso." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Hace mucho viento. Neep se lo pasa en grande volando por el aire en un remolino. Abney y Teal ven a Bop, quien sopla una burbuja gigante para cada uno de ellos para que puedan unirse. Suben más y más alto, lo que pone a Abney ... un poco nervioso." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:11:31" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:12" App="FVOD"/>
+      <App_Data Name="Year" Value="2012" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Las aventuras de Abney y Teal" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2021-03-01" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-04-30" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Las aventuras de Abney y Teal" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="UK" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Adrian Scarborough, Shingai Shoniwa" App="FVOD"/>
+      <App_Data Name="Studio" Value="Ragdoll Worldwided" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Ragdoll Worldwided" App="FVOD"/>
+      <App_Data Name="Actors" Value="Scarborough Adrian, Shoniwa Shingai" App="FVOD"/>
+      <App_Data Name="Director" Value="Stewart, Joel" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEAB6000000000000109" Asset_Name="Las aventuras de Abney y TealT01EP09" Description="Serie Las aventuras de Abney y Teal"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="325016092" App="FVOD"/>
+        <App_Data Name="HDContent" Value="N" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="MPEG2" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEABTE109.mpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEAB6000000000000109" Asset_Name="Las aventuras de Abney y TealT01EP09" Description="Serie Las aventuras de Abney y Teal"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEABTE1_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEAB6000000000000109" Asset_Name="Las aventuras de Abney y TealT01EP09" Description="Serie Las aventuras de Abney y Teal"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEABTE109_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
