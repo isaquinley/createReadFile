@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEPL7000000000000105" Description="Serie Polly Pocket" Asset_Name="Polly PocketT01EP05"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEPL7000000000000105" Asset_Name="Polly PocketT01EP05" Description="Serie Polly Pocket"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Polly Pocket T01 EP05 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 05" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Polly encuentra un pajarito, aunque quiere tenerlo como mascota decide devolverlo a su familia." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Cuando Polly encuentra un pajarito, inmediatamente quiere tenerlo como mascota. Pero después de emprender una pequeña aventura, Polly se da cuenta de que lo correcto es devolverlo a su familia." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:22:00" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:22" App="FVOD"/>
+      <App_Data Name="Year" Value="2018" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Polly Pocket" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2021-03-01" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-04-30" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Polly Pocket" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="CA" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Emily Tennant, Shannon Chan-Kent, Kazumu Evans, Patricia Drake, Rhona Rees, Maryke Hendrikse, Ian Hanlin" App="FVOD"/>
+      <App_Data Name="Studio" Value="Mattel, Inc" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Mattel, Inc" App="FVOD"/>
+      <App_Data Name="Actors" Value="Tennant Emily, Chan-Kent Shannon, Evans Kazumu, Drake Patricia, Rees Rhona, Hendrikse Maryke, Hanlin Ian" App="FVOD"/>
+      <App_Data Name="Director" Value="Bouchard, Brent" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEPL7000000000000105" Asset_Name="Polly PocketT01EP05" Description="Serie Polly Pocket"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="1259723328" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEPLPK105.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEPL7000000000000105" Asset_Name="Polly PocketT01EP05" Description="Serie Polly Pocket"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEPLPK1_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEPL7000000000000105" Asset_Name="Polly PocketT01EP05" Description="Serie Polly Pocket"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEPLPK105_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
