@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EESO6000000000000148" Description="Serie Escuela de Rugidos" Asset_Name="Escuela de RugidosT01EP48"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EESO6000000000000148" Asset_Name="Escuela de RugidosT01EP48" Description="Serie Escuela de Rugidos"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Escuela de Rugidos T01 EP48" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 48" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Los monstruos están creando coloridos cometas, pero Yombón está ocupado acusando a sus amigos." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Los monstruos están creando coloridas cometas, pero Yombón está tan ocupado acusando a sus amigos, que se le olvida hacer una. ¿Le ayudarán sus amigos monstruos a tiempo para la competencia de volar cometas?" App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:07:20" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:07" App="FVOD"/>
+      <App_Data Name="Year" Value="2017" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Escuela de Rugidos" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2021-09-01" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-08-31" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Escuela de Rugidos" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="UK" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Andrew Scott, Alan Robinson, Jess Robinson, Kathy Burke, Sarah Lancashire, Ché Grant, Max Pattison, Ellie Gee, Ben Guiver, Rosie Cooper-Kelly" App="FVOD"/>
+      <App_Data Name="Studio" Value="Monster Prod." App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Monster Prod." App="FVOD"/>
+      <App_Data Name="Actors" Value="Scott Andrew, Robinson Alan, Robinson Jess, Burke Kathy, Lancashire Sarah, Grant Ché, Pattison Max, Gee Ellie, Guiver Ben, Cooper-Kelly Rosie" App="FVOD"/>
+      <App_Data Name="Director" Value="Robinson, Alan" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EESO6000000000000148" Asset_Name="Escuela de RugidosT01EP48" Description="Serie Escuela de Rugidos"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="207417204" App="FVOD"/>
+        <App_Data Name="HDContent" Value="N" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="MPEG2" App="FVOD"/>
+      </Metadata>
+      <Content Value="EESORO148.mpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EESO6000000000000148" Asset_Name="Escuela de RugidosT01EP48" Description="Serie Escuela de Rugidos"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EESORO1_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EESO6000000000000148" Asset_Name="Escuela de RugidosT01EP48" Description="Serie Escuela de Rugidos"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EESORO148_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
