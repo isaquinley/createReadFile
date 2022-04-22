@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEHD7000000000000111" Description="Serie Hero Dad" Asset_Name="Hero DadT01EP11"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEHD7000000000000111" Asset_Name="Hero DadT01EP11" Description="Serie Hero Dad"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Hero Dad T01 EP11 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 11" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Miao intentará rastrear a su perro por sus huellas pero primero necesita distinguir cuáles son." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Tua encerró a Guau en el baño. Miao intentará encontrar a su perrito siguiendo las huellas que quedaron en el suelo justo después de limpiarlo. Miao necesita distinguir qué huellas pertenecen a quién y seguir el rastro correcto para encontrar a Guau." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:05:16" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:05" App="FVOD"/>
+      <App_Data Name="Year" Value="2019" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Hero Dad" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2021-03-01" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-04-30" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Hero Dad" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="ES" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Dani Albiac, Mario Blasco" App="FVOD"/>
+      <App_Data Name="Studio" Value="Wise Blue Studios" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Wise Blue Studios" App="FVOD"/>
+      <App_Data Name="Actors" Value="Albiac Dani, Blasco Mario" App="FVOD"/>
+      <App_Data Name="Director" Value="Valero, Maxi" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEHD7000000000000111" Asset_Name="Hero DadT01EP11" Description="Serie Hero Dad"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="297507556" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEHDAD111.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEHD7000000000000111" Asset_Name="Hero DadT01EP11" Description="Serie Hero Dad"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEHDAD1_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-06" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEHD7000000000000111" Asset_Name="Hero DadT01EP11" Description="Serie Hero Dad"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEHDAD111_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
