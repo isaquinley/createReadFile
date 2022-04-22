@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-01" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EELJ7000000000000220" Description="Serie Jim de la Luna" Asset_Name="Jim de la LunaT02EP20"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-01" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EELJ7000000000000220" Asset_Name="Jim de la LunaT02EP20" Description="Serie Jim de la Luna"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Jim de la Luna T02 EP20 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 20" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Eco, Skye, Jim y Rover quedan pegados a una fruta pero TED encuentra la solución al problema." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Eco, Skye, Jim y Rover quedan pegados a una fruta. Ripple llega al rescate, pero es TED quien se da cuenta de que los pájaros no se quedan pegados a la fruta después de haber tocado un arbusto cercano. ¿Estará ahí la respuesta al problema?" App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:20:45" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:21" App="FVOD"/>
+      <App_Data Name="Year" Value="2007" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Jim de la Luna" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2019-04-10" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-04-30" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Jim de la Luna" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="CA" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Benny Zelkowicz" App="FVOD"/>
+      <App_Data Name="Studio" Value="Lets Get Lunar LTd" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Lets Get Lunar LTd" App="FVOD"/>
+      <App_Data Name="Actors" Value="Zelkowicz Benny" App="FVOD"/>
+      <App_Data Name="Director" Value="Duchscherer, Brian" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-01" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EELJ7000000000000220" Asset_Name="Jim de la LunaT02EP20" Description="Serie Jim de la Luna"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="1210885628" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EELJIM220.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-01" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EELJ7000000000000220" Asset_Name="Jim de la LunaT02EP20" Description="Serie Jim de la Luna"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EELJIM2_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-01" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EELJ7000000000000220" Asset_Name="Jim de la LunaT02EP20" Description="Serie Jim de la Luna"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EELJIM220_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
