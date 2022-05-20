@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EPET7000000000000106" Description="Serie Petit" Asset_Name="PetitT01EP06"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EPET7000000000000106" Asset_Name="PetitT01EP06" Description="Serie Petit"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Petit T01 EP06 HD" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 06" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: Petit y sus amigos deben convencer a su prima que pueden haber princesas ninjas." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: Petit y sus amigos tratan de escapar del cumpleaños de la prima de Petit, una niña adicta al rosa y las princesas, jugando a los ninjas, ¿podrán convencer a la prima que pueden haber princesas ninjas?" App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:07:04" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:07" App="FVOD"/>
+      <App_Data Name="Year" Value="2019" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Petit" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2021-11-01" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-10-31" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Petit" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="CHL" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Loló Muñoz, Agustina Cirulnik, Valeria Gómez, Luciana Falcón, Malena Oriolo, Mara Campanelli, Pablo Gandolfo, Natalia Rosminati, Ariel Cister" App="FVOD"/>
+      <App_Data Name="Studio" Value="Pajaro" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Pajaro" App="FVOD"/>
+      <App_Data Name="Actors" Value="Muñoz Loló, Cirulnik Agustina, Gómez Valeria, Falcón Luciana, Oriolo Malena, Campanelli Mara, Gandolfo Pablo, Rosminati Natalia, Cister Ariel" App="FVOD"/>
+      <App_Data Name="Director" Value="Ojeda, Bernardita" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EPET7000000000000106" Asset_Name="PetitT01EP06" Description="Serie Petit"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="398992776" App="FVOD"/>
+        <App_Data Name="HDContent" Value="Y" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="H264 HD" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEPETI106.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EPET7000000000000106" Asset_Name="PetitT01EP06" Description="Serie Petit"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEPETI1_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-05" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EPET7000000000000106" Asset_Name="PetitT01EP06" Description="Serie Petit"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEPETI106_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
