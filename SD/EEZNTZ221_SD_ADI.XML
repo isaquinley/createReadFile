@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ADI>
+  <Metadata>
+    <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="package" Asset_ID="EEZN6000000000000221" Description="Serie Ziggy y el tranvía del zoológico" Asset_Name="Ziggy y el tranvía del zoológicoT02EP21"/>
+    <App_Data App="SVOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="title" Asset_ID="EEZN6000000000000221" Asset_Name="Ziggy y el tranvía del zoológicoT02EP21" Description="Serie Ziggy y el tranvía del zoológico"/>
+      <App_Data Name="Type" Value="title" App="FVOD"/>
+      <App_Data Name="Title" Value="Ziggy y el tranvía del zoológico T02 EP21" App="FVOD"/>
+      <App_Data Name="Title_Brief" Value="EP 21" App="FVOD"/>
+      <App_Data Name="Summary_Short" Value="Edye presenta: ¡Es el Día de los Juegos! Ziggy y sus amigos del Cráter participarán." App="FVOD"/>
+      <App_Data Name="Summary_Long" Value="Edye presenta: ¡Es el Día de los Juegos! Ziggy y sus amigos participarán, pero primero deben decidir quién será el Maestro de los Juegos. Después de votar, Shackleton gana y recibe el silbato oficial. Todos compiten y ganan, excepto Scotty." App="FVOD"/>
+      <App_Data Name="Rating" Value="TV-Y" App="FVOD"/>
+      <App_Data Name="Run_Time" Value="00:11:31" App="FVOD"/>
+      <App_Data Name="Display_Run_Time" Value="00:12" App="FVOD"/>
+      <App_Data Name="Year" Value="2016" App="FVOD"/>
+      <App_Data Name="Category" Value="Infantil/Ziggy y el tranvía del zoológico" App="FVOD"/>
+      <App_Data Name="Genre" Value="Parenting" App="FVOD"/>
+      <App_Data Name="Distributor_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Licensing_Window_Start" Value="2021-09-01" App="FVOD"/>
+      <App_Data Name="Licensing_Window_End" Value="2023-08-31" App="FVOD"/>
+      <App_Data Name="Audience" Value="General" App="FVOD"/>
+      <App_Data Name="Billing_ID" Value="31028" App="FVOD"/>
+      <App_Data Name="Title_Sort_Name" Value="Ziggy y el tranvía del zoológico" App="FVOD"/>
+      <App_Data Name="Country_Of_Origin" Value="BE" App="FVOD"/>
+      <App_Data Name="Actors_Display" Value="Marieke Van Hooff, Mark Irons Lenny, Jackie Jones, Berangere McNeese, Vincent Broes, Ilse La Monaca, Juliette Crosbie, Tom De Beccker, Dan Russell" App="FVOD"/>
+      <App_Data Name="Studio" Value="Grid Animat. Fab. I" App="FVOD"/>
+      <App_Data Name="Contract_Name" Value="Edye" App="FVOD"/>
+      <App_Data Name="Studio_Name" Value="Grid Animat. Fab. I" App="FVOD"/>
+      <App_Data Name="Actors" Value="Van Hooff Marieke, Irons Lenny Mark, Jones Jackie, McNeese Berangere, Broes Vincent, La Monaca Ilse, Crosbie Juliette, De Beccker Tom, Russell Dan" App="FVOD"/>
+      <App_Data Name="Director" Value="Baert, Alexander" App="FVOD"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="movie" Asset_ID="EEZN6000000000000221" Asset_Name="Ziggy y el tranvía del zoológicoT02EP21" Description="Serie Ziggy y el tranvía del zoológico"/>
+        <App_Data Name="Type" Value="movie" App="FVOD"/>
+        <App_Data Name="Audio_Type" Value="Stereo" App="FVOD"/>
+        <App_Data Name="Screen_Format" Value="Standard" App="FVOD"/>
+        <App_Data Name="Languages" Value="ES" App="FVOD"/>
+        <App_Data Name="Copy_Protection" Value="Y" App="FVOD"/>
+        <App_Data Name="Content_FileSize" Value="324973040" App="FVOD"/>
+        <App_Data Name="HDContent" Value="N" App="FVOD"/>
+        <App_Data Name="Encoding_Type" Value="MPEG2" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEZNTZ221.mpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="box cover" Asset_ID="EEZN6000000000000221" Asset_Name="Ziggy y el tranvía del zoológicoT02EP21" Description="Serie Ziggy y el tranvía del zoológico"/>
+        <App_Data Name="Type" Value="box cover" App="FVOD"/>
+      </Metadata>
+      <Content Value="EEZNTZ2_box.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Creation_Date="2022-03-07" Product="FVOD;;;;;;;;" Provider="Edye" Provider_ID="www.edye.com" Verb="" Version_Major="1" Version_Minor="1" Asset_Class="image" Asset_ID="EEZN6000000000000221" Asset_Name="Ziggy y el tranvía del zoológicoT02EP21" Description="Serie Ziggy y el tranvía del zoológico"/>
+        <App_Data Name="Type" Value="image" App="MOD"/>
+        <App_Data Name="Image_Qualifier" Value="HighResLandscape" App="MOD"/>
+        <App_Data Name="Image_Aspect_Ratio" Value="1920x1080" App="MOD"/>
+        <App_Data/>
+      </Metadata>
+      <Content Value="EEZNTZ221_land.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
